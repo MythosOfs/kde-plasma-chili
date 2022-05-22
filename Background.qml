@@ -35,7 +35,7 @@ FocusScope {
     RecursiveBlur {
         anchors.fill: sceneImageBackground
         source: sceneImageBackground
-        radius: config.Blur == "false" ? config.RecursiveBlurRadius : 0
-        loops: config.Blur == "false" ? config.RecursiveBlurLoops : 0
+        radius: config.Blur == "true" ? config.RecursiveBlurRadius : 0
+        loops: config.Blur == "true" ? config.RecursiveBlurLoops : 0
     }
 }
